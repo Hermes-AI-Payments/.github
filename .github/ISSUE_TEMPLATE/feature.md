@@ -125,6 +125,6 @@ Quien la escribe y quien la revisa, humano o IA, marcan esta lista. Pasa a Defin
 - [ ] La verificación nombra el escenario, el ambiente y quién la demuestra.
 - [ ] Las dependencias están enlazadas y las externas tienen responsable.
 - [ ] Producto, Dimensión, Horizonte, Riesgo y Semana están llenos en el tablero.
-- [ ] Cada dato tiene su fuente y no quedan pendientes `{{PENDIENTE — Nombre}}` abiertos.
+- [ ] Cada dato tiene su fuente y no quedan pendientes abiertos marcados con doble llave y el nombre de quien los resuelve.
 - [ ] No quedan descripciones, preguntas guía ni ejemplos de la plantilla.
 - [ ] No contiene datos de cliente ni de producción.
