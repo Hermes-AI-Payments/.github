@@ -10,7 +10,7 @@ projects: ["Hermes-AI-Payments/5"]
 >
 > **Título:** verbo y resultado, en lenguaje de producto. Dice qué cambia, no qué se programa. Ejemplo: *Sostener 50 operaciones por segundo en el servicio de órdenes*. No: *Refactor del listener*.
 >
-> **En el tablero:** llena Producto (y Agente si es Agentes IA), Dimensión, Horizonte, Riesgo y Semana. Origen no lo llenas tú: se asigna al corte de la Y.
+> **En el tablero:** llena Producto, Tipo de feature, Planeado para y Semana. Tipo de planificación no lo llenas tú: se asigna al corte de la Y.
 >
 > **Sin datos de cliente ni de producción.** Ante la duda, el dato es sensible.
 
@@ -91,17 +91,6 @@ projects: ["Hermes-AI-Payments/5"]
 
 **Ejemplo:** rendimiento de salida. Ambientes distintos al del piloto.
 
-### Por qué no entra
-
-**Descripción:** solo si Horizonte es *No entra*; si entra, borra esta sección. La justificación técnica de por qué no se necesita para el objetivo del trimestre.
-
-**Preguntas guía:**
-- ¿Por qué no se necesita para el objetivo del trimestre?
-- ¿Qué riesgo se acepta al no hacerla?
-- ¿Cuándo debería revisarse?
-
-**Ejemplo:** la prueba usa datos sintéticos, no datos reales del cliente. El cifrado en reposo que la nube aplica por defecto basta para esa etapa. Se acepta el riesgo de que un cliente pida llaves propias más adelante; se revisa al definir el alcance de producción.
-
 ### Referencia
 
 **Descripción:** el expediente o documento en docs que atiende.
@@ -124,7 +113,7 @@ Quien la escribe y quien la revisa, humano o IA, marcan esta lista. Pasa a Defin
 - [ ] Hay criterio de producto, de calidad y de seguridad.
 - [ ] La verificación nombra el escenario, el ambiente y quién la demuestra.
 - [ ] Las dependencias están enlazadas y las externas tienen responsable.
-- [ ] Producto, Dimensión, Horizonte, Riesgo y Semana están llenos en el tablero.
+- [ ] Producto, Tipo de feature, Planeado para y Semana están llenos en el tablero.
 - [ ] Cada dato tiene su fuente y no quedan pendientes abiertos marcados con doble llave y el nombre de quien los resuelve.
 - [ ] No quedan descripciones, preguntas guía ni ejemplos de la plantilla.
 - [ ] No contiene datos de cliente ni de producción.
