@@ -10,7 +10,7 @@ projects: ["Hermes-AI-Payments/5"]
 >
 > **Título:** verbo y resultado, en lenguaje de producto. Dice qué cambia, no qué se programa. Ejemplo: *Sostener 50 operaciones por segundo en el servicio de órdenes*. No: *Refactor del listener*.
 >
-> **En el tablero:** llena Producto, Tipo de feature, Planeado para y Semana. Tipo de planificación no lo llenas tú: se asigna al corte de la Y.
+> **En el tablero:** llena Producto, Tipo de feature, Enfoque, Planeado para y Semana. Tipo de planificación no lo llenas tú: se asigna al corte de la Y.
 >
 > **Sin datos de cliente ni de producción.** Ante la duda, el dato es sensible.
 
@@ -113,7 +113,7 @@ Quien la escribe y quien la revisa, humano o IA, marcan esta lista. Pasa a Defin
 - [ ] Hay criterio de producto, de calidad y de seguridad.
 - [ ] La verificación nombra el escenario, el ambiente y quién la demuestra.
 - [ ] Las dependencias están enlazadas y las externas tienen responsable.
-- [ ] Producto, Tipo de feature, Planeado para y Semana están llenos en el tablero.
+- [ ] Producto, Tipo de feature, Enfoque, Planeado para y Semana están llenos en el tablero.
 - [ ] Cada dato tiene su fuente y no quedan pendientes abiertos marcados con doble llave y el nombre de quien los resuelve.
 - [ ] No quedan descripciones, preguntas guía ni ejemplos de la plantilla.
 - [ ] No contiene datos de cliente ni de producción.
