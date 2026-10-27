@@ -42,7 +42,7 @@ projects: ["Hermes-AI-Payments/5"]
 **Preguntas guía:**
 - ¿Cada criterio se comprueba con un sí o un no?
 - ¿Hay uno de producto, uno de calidad y uno de seguridad?
-- ¿Alguien distinto del autor podría comprobarlos sin preguntarle nada?
+- ¿Otra persona podría comprobarlos sin preguntarle nada al autor?
 
 **Ejemplo:**
 - Dado el ambiente de pruebas con carga constante de 50 operaciones por segundo, cuando corre 30 minutos, entonces el 100 % de las operaciones se procesa sin error. *(producto)*
@@ -56,9 +56,9 @@ projects: ["Hermes-AI-Payments/5"]
 **Preguntas guía:**
 - ¿Qué escenario de punta a punta la demuestra?
 - ¿El ambiente es igual al del piloto o la PoC?
-- ¿Quién distinto del autor la demuestra?
+- ¿Quién la prueba? Tiene que ser alguien que no la construyó.
 
-**Ejemplo:** la prueba de carga corre en un ambiente con la misma topología que el del piloto. La demuestra alguien distinto del autor, con el reporte y repitiendo la prueba.
+**Ejemplo:** la prueba de carga corre en un ambiente con la misma topología que el del piloto. La prueba alguien que no la construyó, con el reporte y repitiendo la prueba.
 
 ### Dependencias
 
@@ -91,20 +91,11 @@ projects: ["Hermes-AI-Payments/5"]
 
 **Ejemplo:** rendimiento de salida. Ambientes distintos al del piloto.
 
-### Referencia
-
-**Descripción:** el expediente o documento en docs que atiende.
-
-**Preguntas guía:**
-- ¿Qué objetivo, capacidad o requerimiento del expediente cubre?
-
-**Ejemplo:** objetivo del producto para el trimestre y expediente del producto en docs.
-
 ---
 
 ### Lista para Definido
 
-Quien la escribe y quien la revisa, humano o IA, marcan esta lista. Pasa a Definido solo con todo marcado.
+Quien la define marca esta lista. Pasa a Definido solo con todo marcado.
 
 - [ ] El título dice qué cambia para el producto, no qué se programa.
 - [ ] Cabe en una semana. Si no, el tipo cambió a Iniciativa y sus Features son sub-issues.
@@ -114,6 +105,7 @@ Quien la escribe y quien la revisa, humano o IA, marcan esta lista. Pasa a Defin
 - [ ] La verificación nombra el escenario, el ambiente y quién la demuestra.
 - [ ] Las dependencias están enlazadas y las externas tienen responsable.
 - [ ] Producto, Tipo de feature, Enfoque, Planeado para y Semana están llenos en el tablero.
-- [ ] Cada dato tiene su fuente y no quedan pendientes abiertos marcados con doble llave y el nombre de quien los resuelve.
+- [ ] Lo que no se pudo comprobar se preguntó; no se escribió como hecho.
+- [ ] El issue dice solo lo que está definido, sin historia de decisiones ni cambios.
 - [ ] No quedan descripciones, preguntas guía ni ejemplos de la plantilla.
 - [ ] No contiene datos de cliente ni de producción.
